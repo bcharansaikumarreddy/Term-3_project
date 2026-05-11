@@ -1,0 +1,82 @@
+ /* cursor: pointer;
+} */
+
+.login-error {
+  color: red;
+
+  text-align: center;
+
+  margin-top: 15px;
+}.login-bg {
+  min-height: 100vh;
+
+  background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba');
+
+  background-size: cover;
+
+  background-position: center;
+}
+
+.login-overlay {
+  min-height: 100vh;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 20px;
+}
+
+.login-card {
+  width: 400px;
+
+  background-color: white;
+
+  padding: 40px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.login-title {
+  text-align: center;
+
+  margin-bottom: 25px;
+
+  font-size: 36px;
+}
+
+.login-input {
+  width: 100%;
+
+  padding: 12px;
+
+  margin-bottom: 18px;
+
+  border-radius: 6px;
+
+  border: 1px solid #ccc;
+
+  font-size: 16px;
+}
+
+.login-submit-btn {
+  width: 100%;
+
+  background-color: orange;
+
+  color: white;
+
+  border: none;
+
+  padding: 14px;
+
+  font-size: 18px;
+
+  border-radius: 6px;
+}

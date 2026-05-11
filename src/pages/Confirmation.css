@@ -1,0 +1,98 @@
+.confirmation-page {
+  min-height: 100vh;
+
+  background: linear-gradient(
+    to right,
+    #141e30,
+    #243b55
+  );
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 20px;
+}
+
+.confirmation-card {
+  background-color: white;
+
+  width: 450px;
+
+  padding: 50px 40px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow: 0 10px 25px
+    rgba(0, 0, 0, 0.3);
+}
+
+.success-icon {
+  font-size: 80px;
+
+  margin-bottom: 20px;
+}
+
+.success-heading {
+  font-size: 42px;
+
+  color: #16a34a;
+
+  margin-bottom: 20px;
+}
+
+.success-text {
+  font-size: 20px;
+
+  color: #475569;
+
+  margin-bottom: 12px;
+}
+
+.success-subtext {
+  font-size: 18px;
+
+  color: #64748b;
+
+  margin-bottom: 35px;
+}
+
+.home-btn {
+  background-color: #2563eb;
+
+  color: white;
+
+  border: none;
+
+  padding: 14px 30px;
+
+  border-radius: 10px;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.home-btn:hover {
+  background-color: #1d4ed8;
+
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+
+  .confirmation-card {
+    width: 100%;
+  }
+
+  .success-heading {
+    font-size: 32px;
+  }
+
+}

@@ -1,0 +1,153 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.signup-bg {
+  min-height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1511497584788-876760111969');
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+/* LEFT */
+.left-section {
+  width: 45%;
+  color: white;
+}
+
+.logo {
+  width: 70px;
+  margin-bottom: 20px;
+}
+
+.left-section h1 {
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.left-section p {
+  margin-top: 20px;
+  width: 80%;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 24px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+/* RIGHT */
+.right-section {
+  width: 40%;
+  color: white;
+}
+
+.right-section h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.right-section input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.right-section button {
+  background: #ff6a00;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-link {
+  margin-top: 18px;
+}
+
+.login-link a {
+  color: #ff6a00;
+  text-decoration: none;
+}
+
+.terms {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #ddd;
+  line-height: 1.6;
+}
+
+.terms a {
+  color: white;
+  text-decoration: none;
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  .overlay {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .left-section h1 {
+    font-size: 50px;
+  }
+
+  .left-section p {
+    width: 100%;
+  }
+
+  .right-section {
+    margin-top: 40px;
+  }
+}
+.input-box{
+  position: relative;
+}
+
+.tick{
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  color: green;
+  font-size: 18px;
+}
+
+.error{
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}

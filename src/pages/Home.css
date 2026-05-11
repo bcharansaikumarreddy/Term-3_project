@@ -1,0 +1,25 @@
+.home-container {
+  background-color: #f3f4f6;
+
+  min-height: 100vh;
+
+  padding: 30px;
+}
+
+.home-heading {
+  font-size: 42px;
+
+  margin-bottom: 30px;
+
+  text-align: center;
+}
+
+.movies-list {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 30px;
+
+  justify-content: center;
+}
