@@ -1,0 +1,207 @@
+{
+  "generatedAt": "2026-05-08",
+  "users": [
+    {
+      "id": "1",
+      "name": "Charan",
+      "age": 20,
+      "dob": "2005-01-01",
+      "email": "charan@gmail.com",
+      "password": "Charan@123"
+    },
+    {
+      "name": "charan",
+      "age": "18",
+      "dob": "2007-02-21",
+      "email": "bcharansaikumarreddy@gmail.com",
+      "password": "Bvr@123456",
+      "id": "P0bWrCebbv0"
+    },
+    {
+      "name": "Manohar Edhara",
+      "age": "19",
+      "dob": "2006-06-11",
+      "email": "manoharedhara7@gmail.com",
+      "location": "Hyderabad",
+      "password": "Mano@2006",
+      "id": "kgu1yDrhggU"
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "title": "Avengers",
+      "category": "Action",
+      "rating": 9,
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "2",
+      "title": "Interstellar",
+      "category": "Sci-Fi",
+      "rating": 10,
+      "image": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "3",
+      "title": "The Dark Knight",
+      "category": "Action",
+      "rating": 9.1,
+      "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "4",
+      "title": "Inception",
+      "category": "Sci-Fi",
+      "rating": 8.9,
+      "image": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "5",
+      "title": "Fight Club",
+      "category": "Drama",
+      "rating": 8.8,
+      "image": "https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "6",
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "category": "Fantasy",
+      "rating": 8.9,
+      "image": "https://images.unsplash.com/photo-1505685296765-3a2736de412f?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "7",
+      "title": "The Lord of the Rings: The Two Towers",
+      "category": "Fantasy",
+      "rating": 8.8,
+      "image": "https://images.unsplash.com/photo-1513106580091-1d82408b8cd6?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "8",
+      "title": "The Lord of the Rings: The Return of the King",
+      "category": "Fantasy",
+      "rating": 9,
+      "image": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "9",
+      "title": "The Shawshank Redemption",
+      "category": "Drama",
+      "rating": 9.3,
+      "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "10",
+      "title": "Gladiator",
+      "category": "Action",
+      "rating": 8.5,
+      "image": "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "11",
+      "title": "Back to the Future",
+      "category": "Adventure",
+      "rating": 8.5,
+      "image": "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "12",
+      "title": "The Prestige",
+      "category": "Thriller",
+      "rating": 8.5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpW4rj4VAaJaVSqiPbW-MTfSVDKeDOFLaDf9Jwcw7ETLAg8YkiDIm0yQ7Y2IoTdEp2PfXXQSoPdrRnGgMn9AeUg06OqeLSVUJCOIgfowej&s=10"
+    },
+    {
+      "id": "13",
+      "title": "Iron Man 3",
+      "category": "Action",
+      "rating": 7.1,
+      "image": "https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "14",
+      "title": "Avatar",
+      "category": "Sci-Fi",
+      "rating": 8,
+      "image": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "15",
+      "title": "Titanic",
+      "category": "Romance",
+      "rating": 8.1,
+      "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "16",
+      "title": "Joker",
+      "category": "Crime",
+      "rating": 8.4,
+      "image": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "17",
+      "title": "Spider-Man: No Way Home",
+      "category": "Action",
+      "rating": 8.3,
+      "image": "https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "18",
+      "title": "The Matrix",
+      "category": "Sci-Fi",
+      "rating": 8.7,
+      "image": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "19",
+      "title": "Toy Story",
+      "category": "Animation",
+      "rating": 8.3,
+      "image": "https://images.unsplash.com/photo-1585951237318-9ea5e175b891?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "20",
+      "title": "Parasite",
+      "category": "Thriller",
+      "rating": 8.6,
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "bookings": [
+    {
+      "userId": "P0bWrCebbv0",
+      "userName": "charan",
+      "movieId": "1",
+      "seats": 1,
+      "totalPrice": 200,
+      "id": "MbLo3cDkxlw"
+    },
+    {
+      "userId": "P0bWrCebbv0",
+      "userName": "charan",
+      "movieId": "1",
+      "seats": 11,
+      "totalPrice": 2200,
+      "id": "0QfGkIN58hc"
+    },
+    {
+      "userId": "P0bWrCebbv0",
+      "userName": "charan",
+      "movieId": "4",
+      "seats": 1,
+      "totalPrice": 200,
+      "id": "rhEg2dM1Oxg"
+    },
+    {
+      "userId": "P0bWrCebbv0",
+      "userName": "charan",
+      "movieId": "2",
+      "seats": 1,
+      "totalPrice": 200,
+      "id": "94T0IV3uunw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
