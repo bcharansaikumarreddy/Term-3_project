@@ -4,14 +4,13 @@ import "./BookingHistory.css";
 
 const BookingHistory = () => {
   const [bookings, setBookings] = useState([]);
-
+  
   useEffect(() => {
     getBookings();
   }, []);
 
   const getBookings = async () => {
     const user = JSON.parse(localStorage.getItem("user"));
-
     const response = await fetch(
       `http://localhost:3000/bookings?userId=${user.id}`,
     );

@@ -31,7 +31,7 @@ const Home = () => {
   const changeSearchInput = (event) => {
     setSearchInput(event.target.value);
   };
-
+  
   const changeCategory = (event) => {
     setCategory(event.target.value);
   };

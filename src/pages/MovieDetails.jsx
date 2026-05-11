@@ -25,14 +25,6 @@ const MovieDetails = () => {
 
   const user = JSON.parse(localStorage.getItem("user"));
 
-  const bookMovie = () => {
-    if (!user) {
-      alert("Please login first");
-
-      setRedirect(true);
-    }
-  };
-
   if (redirect) {
     return <Navigate to="/login" />;
   }
@@ -59,16 +51,16 @@ const MovieDetails = () => {
             {movie.rating}
           </p>
 
-          <p>Experience the best movie booking platform built using ReactJS.</p>
+          <p>Experience the best movie booking platform.</p>
 
           {user ? (
             <Link to={`/seats/${movie.id}`}>
               <button className="book-btn">Book Now</button>
             </Link>
           ) : (
-            <button className="book-btn" onClick={bookMovie}>
-              Login To Book
-            </button>
+            <Link to="/login">
+              <button className="book-btn">Login To Book</button>
+            </Link>
           )}
         </div>
       </div>

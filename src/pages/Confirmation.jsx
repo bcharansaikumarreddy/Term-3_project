@@ -1,40 +1,52 @@
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
+import { FaCheckCircle, FaHome, FaTicketAlt } from "react-icons/fa";
 
-import "./Confirmation.css"
+import "./Confirmation.css";
 
 const Confirmation = () => {
   return (
     <div className="confirmation-page">
+      <div className="background-glow glow-1"></div>
+      <div className="background-glow glow-2"></div>
 
       <div className="confirmation-card">
-
-        <div className="success-icon">
-          ✅
+        <div className="success-badge">
+          <FaCheckCircle />
         </div>
 
-        <h1 className="success-heading">
-          Booking Successful
-        </h1>
+        <p className="booking-status">PAYMENT SUCCESSFUL</p>
+
+        <h1 className="success-heading">Booking Confirmed </h1>
 
         <p className="success-text">
-          Your movie tickets have been
-          booked successfully.
+          Your movie tickets have been booked successfully.
         </p>
 
-        <p className="success-subtext">
-          Enjoy your movie experience 🎬
-        </p>
+        <div className="ticket-box">
+          <div className="ticket-icon">
+            <FaTicketAlt />
+          </div>
 
-        <Link to="/">
-          <button className="home-btn">
-            Go To Home
-          </button>
-        </Link>
+          <div>
+            <h3 className="ticket-title">Ready For Your Show</h3>
 
+            <p className="ticket-subtext">
+              Enjoy your cinematic experience with friends & family.
+            </p>
+          </div>
+        </div>
+
+        <div className="button-group">
+          <Link to="/">
+            <button className="home-btn">
+              <FaHome className="btn-icon" />
+              Back To Home
+            </button>
+          </Link>
+        </div>
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default Confirmation
+export default Confirmation;

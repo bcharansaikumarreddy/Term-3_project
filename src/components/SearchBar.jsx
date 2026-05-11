@@ -2,8 +2,7 @@ import "./SearchBar.css";
 import { FaSearch } from "react-icons/fa";
 
 const SearchBar = (props) => {
-  const { searchInput, changeSearchInput, category, changeCategory } = props;
-
+  const { searchInput, changeSearchInput, category, changeCategory } = props; 
   return (
     <div className="search-container">
       <div className="search-box">
