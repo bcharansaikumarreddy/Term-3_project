@@ -19,6 +19,16 @@
       "location": "Hyderabad",
       "password": "Mano@2006",
       "id": "kgu1yDrhggU"
+    },
+    {
+      "name": "nithin",
+      "age": "20",
+      "dob": "2005-03-21",
+      "email": "kn789444@gmail.com",
+      "location": "maharashtra ",
+      "password": "NITHin@123",
+      "id": "xfB1rG5n_4A",
+      "profileImage": "blob:http://localhost:5173/9dbc38b1-4a40-4a77-86fd-580651401ee8"
     }
   ],
   "movies": [
@@ -237,6 +247,14 @@
       ],
       "totalPrice": 150,
       "id": "6Lfp6rTmbQk"
+    },
+    {
+      "userId": "xfB1rG5n_4A",
+      "userName": "nithin",
+      "movieId": "13",
+      "seats": 2,
+      "totalPrice": 400,
+      "id": "xJ8TDysxzi8"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
